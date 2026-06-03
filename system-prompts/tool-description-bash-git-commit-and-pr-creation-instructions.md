@@ -1,7 +1,7 @@
 <!--
 name: 'Tool Description: Bash (Git commit and PR creation instructions)'
 description: Instructions for creating git commits and GitHub pull requests
-ccVersion: 2.1.160
+ccVersion: 2.1.162
 variables:
   - BASH_TOOL_NAME
   - COMMIT_CO_AUTHORED_BY_CLAUDE_CODE
@@ -10,6 +10,7 @@ variables:
   - EMPTY_STRING
   - PR_INSTRUCTIONS_PREFIX
   - PR_GENERATED_WITH_CLAUDE_CODE
+  - PR_COMMON_OPERATIONS_NOTE
 -->
 ${""}# Committing changes with git
 
@@ -97,4 +98,6 @@ Important:
 - Return the PR URL when you're done, so the user can see it
 
 # Other common operations
-- View comments on a Github PR: gh api repos/foo/bar/pulls/123/comments
+- View comments on a Github PR: gh api repos/foo/bar/pulls/123/comments${PR_COMMON_OPERATIONS_NOTE?`
+
+${PR_COMMON_OPERATIONS_NOTE}`:""}
