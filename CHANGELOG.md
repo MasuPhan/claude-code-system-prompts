@@ -6,6 +6,8 @@ Note: Only use **NEW:** for entirely new prompt files, NOT for new additions/sec
 
 # [2.1.172](https://github.com/Piebald-AI/claude-code-system-prompts/commit/94e0b89)
 
+_+23,890 tokens_
+
 - **NEW:** Data: Design sync sync hashes module — Adds bundled hashing helpers that keep package builds, captures, preview rebuilds, remote diffs, sidecars, and grade carry-forward aligned on shared source, render, style, and grade hash recipes.
 - **NEW:** Data: Managed Agents scheduled deployments — Adds Managed Agents scheduled-deployment documentation for recurring cron schedules, deployment creation, deployment runs, failure behavior, lifecycle operations, jitter, manual runs, and cron/timezone semantics.
 - **NEW:** System Prompt: Claude Fable 5 model identity — Identifies Claude Fable 5 as the current model, explains its relationship to Claude Mythos 5, and directs users to Anthropic's Fable/Mythos announcement for differences.
